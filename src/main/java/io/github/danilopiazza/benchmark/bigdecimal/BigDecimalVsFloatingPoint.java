@@ -8,6 +8,8 @@ import org.openjdk.jmh.annotations.BenchmarkMode;
 import org.openjdk.jmh.annotations.Measurement;
 import org.openjdk.jmh.annotations.Mode;
 import org.openjdk.jmh.annotations.OutputTimeUnit;
+import org.openjdk.jmh.annotations.Scope;
+import org.openjdk.jmh.annotations.State;
 import org.openjdk.jmh.annotations.Warmup;
 import org.openjdk.jmh.infra.Blackhole;
 
@@ -40,18 +42,30 @@ public class BigDecimalVsFloatingPoint {
         blackhole.consume(d3);
     }
 
+    @State(Scope.Benchmark)
+    public static class DoubleInput {
+        public double augend = 0.1;
+        public double addend = 0.2;
+    }
+
     @Benchmark
-    public void sumDouble(Blackhole blackhole) {
-        double d1 = 0.1;
-        double d2 = 0.2;
+    public void sumDouble(Blackhole blackhole, DoubleInput input) {
+        double d1 = input.augend;
+        double d2 = input.addend;
         double d3 = d1 + d2;
         blackhole.consume(d3);
     }
 
+    @State(Scope.Benchmark)
+    public static class FloatInput {
+        public float augend = 0.1f;
+        public float addend = 0.2f;
+    }
+
     @Benchmark
-    public void sumFloat(Blackhole blackhole) {
-        float f1 = 0.1f;
-        float f2 = 0.2f;
+    public void sumFloat(Blackhole blackhole, FloatInput input) {
+        float f1 = input.augend;
+        float f2 = input.addend;
         float f3 = f1 + f2;
         blackhole.consume(f3);
     }
