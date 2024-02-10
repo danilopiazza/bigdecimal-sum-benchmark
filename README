@@ -8,246 +8,78 @@
 # Timeout: 10 min per iteration
 # Threads: 1 thread, will synchronize iterations
 # Benchmark mode: Average time, time/op
-# Benchmark: io.github.danilopiazza.benchmark.bigdecimal.BigDecimalVsFloatingPoint.constantDouble
-
-# Run progress: 0,00% complete, ETA 00:05:50
-# Fork: 1 of 5
-# Warmup Iteration   1: 0,402 ns/op
-# Warmup Iteration   2: 0,397 ns/op
-# Warmup Iteration   3: 0,397 ns/op
-# Warmup Iteration   4: 0,392 ns/op
-# Warmup Iteration   5: 0,391 ns/op
-Iteration   1: 0,394 ns/op
-Iteration   2: 0,392 ns/op
-Iteration   3: 0,401 ns/op
-Iteration   4: 0,393 ns/op
-Iteration   5: 0,402 ns/op
-
-# Run progress: 2,86% complete, ETA 00:05:49
-# Fork: 2 of 5
-# Warmup Iteration   1: 0,407 ns/op
-# Warmup Iteration   2: 0,415 ns/op
-# Warmup Iteration   3: 0,441 ns/op
-# Warmup Iteration   4: 0,431 ns/op
-# Warmup Iteration   5: 0,427 ns/op
-Iteration   1: 0,432 ns/op
-Iteration   2: 0,443 ns/op
-Iteration   3: 0,427 ns/op
-Iteration   4: 0,388 ns/op
-Iteration   5: 0,391 ns/op
-
-# Run progress: 5,71% complete, ETA 00:05:37
-# Fork: 3 of 5
-# Warmup Iteration   1: 0,390 ns/op
-# Warmup Iteration   2: 0,402 ns/op
-# Warmup Iteration   3: 0,388 ns/op
-# Warmup Iteration   4: 0,391 ns/op
-# Warmup Iteration   5: 0,388 ns/op
-Iteration   1: 0,390 ns/op
-Iteration   2: 0,397 ns/op
-Iteration   3: 0,391 ns/op
-Iteration   4: 0,388 ns/op
-Iteration   5: 0,400 ns/op
-
-# Run progress: 8,57% complete, ETA 00:05:27
-# Fork: 4 of 5
-# Warmup Iteration   1: 0,421 ns/op
-# Warmup Iteration   2: 0,458 ns/op
-# Warmup Iteration   3: 0,427 ns/op
-# Warmup Iteration   4: 0,402 ns/op
-# Warmup Iteration   5: 0,387 ns/op
-Iteration   1: 0,390 ns/op
-Iteration   2: 0,395 ns/op
-Iteration   3: 0,390 ns/op
-Iteration   4: 0,389 ns/op
-Iteration   5: 0,391 ns/op
-
-# Run progress: 11,43% complete, ETA 00:05:16
-# Fork: 5 of 5
-# Warmup Iteration   1: 0,398 ns/op
-# Warmup Iteration   2: 0,410 ns/op
-# Warmup Iteration   3: 0,386 ns/op
-# Warmup Iteration   4: 0,391 ns/op
-# Warmup Iteration   5: 0,388 ns/op
-Iteration   1: 0,390 ns/op
-Iteration   2: 0,402 ns/op
-Iteration   3: 0,442 ns/op
-Iteration   4: 0,396 ns/op
-Iteration   5: 0,389 ns/op
-
-
-Result "io.github.danilopiazza.benchmark.bigdecimal.BigDecimalVsFloatingPoint.constantDouble":
-  0,400 ±(99.9%) 0,013 ns/op [Average]
-  (min, avg, max) = (0,388, 0,400, 0,443), stdev = 0,017
-  CI (99.9%): [0,388, 0,413] (assumes normal distribution)
-
-
-# JMH version: 1.37
-# VM version: JDK 21.0.1, OpenJDK 64-Bit Server VM, 21.0.1+12-Ubuntu-222.04
-# VM invoker: /usr/lib/jvm/java-21-openjdk-amd64/bin/java
-# VM options: <none>
-# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
-# Warmup: 5 iterations, 1 s each
-# Measurement: 5 iterations, 1 s each
-# Timeout: 10 min per iteration
-# Threads: 1 thread, will synchronize iterations
-# Benchmark mode: Average time, time/op
-# Benchmark: io.github.danilopiazza.benchmark.bigdecimal.BigDecimalVsFloatingPoint.constantFloat
-
-# Run progress: 14,29% complete, ETA 00:05:06
-# Fork: 1 of 5
-# Warmup Iteration   1: 0,389 ns/op
-# Warmup Iteration   2: 0,397 ns/op
-# Warmup Iteration   3: 0,389 ns/op
-# Warmup Iteration   4: 0,391 ns/op
-# Warmup Iteration   5: 0,388 ns/op
-Iteration   1: 0,391 ns/op
-Iteration   2: 0,395 ns/op
-Iteration   3: 0,391 ns/op
-Iteration   4: 0,395 ns/op
-Iteration   5: 0,390 ns/op
-
-# Run progress: 17,14% complete, ETA 00:04:56
-# Fork: 2 of 5
-# Warmup Iteration   1: 0,427 ns/op
-# Warmup Iteration   2: 0,440 ns/op
-# Warmup Iteration   3: 0,441 ns/op
-# Warmup Iteration   4: 0,433 ns/op
-# Warmup Iteration   5: 0,428 ns/op
-Iteration   1: 0,453 ns/op
-Iteration   2: 0,433 ns/op
-Iteration   3: 0,456 ns/op
-Iteration   4: 0,431 ns/op
-Iteration   5: 0,431 ns/op
-
-# Run progress: 20,00% complete, ETA 00:04:46
-# Fork: 3 of 5
-# Warmup Iteration   1: 0,410 ns/op
-# Warmup Iteration   2: 0,387 ns/op
-# Warmup Iteration   3: 0,387 ns/op
-# Warmup Iteration   4: 0,388 ns/op
-# Warmup Iteration   5: 0,383 ns/op
-Iteration   1: 0,393 ns/op
-Iteration   2: 0,383 ns/op
-Iteration   3: 0,386 ns/op
-Iteration   4: 0,385 ns/op
-Iteration   5: 0,387 ns/op
-
-# Run progress: 22,86% complete, ETA 00:04:36
-# Fork: 4 of 5
-# Warmup Iteration   1: 0,408 ns/op
-# Warmup Iteration   2: 0,387 ns/op
-# Warmup Iteration   3: 0,400 ns/op
-# Warmup Iteration   4: 0,415 ns/op
-# Warmup Iteration   5: 0,426 ns/op
-Iteration   1: 0,460 ns/op
-Iteration   2: 0,428 ns/op
-Iteration   3: 0,433 ns/op
-Iteration   4: 0,584 ns/op
-Iteration   5: 0,386 ns/op
-
-# Run progress: 25,71% complete, ETA 00:04:25
-# Fork: 5 of 5
-# Warmup Iteration   1: 0,398 ns/op
-# Warmup Iteration   2: 0,388 ns/op
-# Warmup Iteration   3: 0,384 ns/op
-# Warmup Iteration   4: 0,385 ns/op
-# Warmup Iteration   5: 0,383 ns/op
-Iteration   1: 0,394 ns/op
-Iteration   2: 0,385 ns/op
-Iteration   3: 0,388 ns/op
-Iteration   4: 0,399 ns/op
-Iteration   5: 0,391 ns/op
-
-
-Result "io.github.danilopiazza.benchmark.bigdecimal.BigDecimalVsFloatingPoint.constantFloat":
-  0,414 ±(99.9%) 0,032 ns/op [Average]
-  (min, avg, max) = (0,383, 0,414, 0,584), stdev = 0,043
-  CI (99.9%): [0,381, 0,446] (assumes normal distribution)
-
-
-# JMH version: 1.37
-# VM version: JDK 21.0.1, OpenJDK 64-Bit Server VM, 21.0.1+12-Ubuntu-222.04
-# VM invoker: /usr/lib/jvm/java-21-openjdk-amd64/bin/java
-# VM options: <none>
-# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
-# Warmup: 5 iterations, 1 s each
-# Measurement: 5 iterations, 1 s each
-# Timeout: 10 min per iteration
-# Threads: 1 thread, will synchronize iterations
-# Benchmark mode: Average time, time/op
 # Benchmark: io.github.danilopiazza.benchmark.bigdecimal.BigDecimalVsFloatingPoint.sumBigDecimalFromDouble
 
-# Run progress: 28,57% complete, ETA 00:04:15
+# Run progress: 0,00% complete, ETA 00:04:10
 # Fork: 1 of 5
-# Warmup Iteration   1: 170,491 ns/op
-# Warmup Iteration   2: 135,954 ns/op
-# Warmup Iteration   3: 132,345 ns/op
-# Warmup Iteration   4: 132,397 ns/op
-# Warmup Iteration   5: 133,461 ns/op
-Iteration   1: 139,376 ns/op
-Iteration   2: 134,119 ns/op
-Iteration   3: 131,706 ns/op
-Iteration   4: 133,035 ns/op
-Iteration   5: 134,645 ns/op
+# Warmup Iteration   1: 154,399 ns/op
+# Warmup Iteration   2: 127,028 ns/op
+# Warmup Iteration   3: 121,477 ns/op
+# Warmup Iteration   4: 119,621 ns/op
+# Warmup Iteration   5: 120,866 ns/op
+Iteration   1: 127,039 ns/op
+Iteration   2: 120,938 ns/op
+Iteration   3: 122,056 ns/op
+Iteration   4: 122,268 ns/op
+Iteration   5: 130,435 ns/op
 
-# Run progress: 31,43% complete, ETA 00:04:05
+# Run progress: 4,00% complete, ETA 00:04:07
 # Fork: 2 of 5
-# Warmup Iteration   1: 161,064 ns/op
-# Warmup Iteration   2: 132,530 ns/op
-# Warmup Iteration   3: 125,268 ns/op
-# Warmup Iteration   4: 126,615 ns/op
-# Warmup Iteration   5: 135,413 ns/op
-Iteration   1: 129,423 ns/op
-Iteration   2: 126,659 ns/op
-Iteration   3: 140,263 ns/op
-Iteration   4: 135,010 ns/op
-Iteration   5: 135,759 ns/op
+# Warmup Iteration   1: 160,659 ns/op
+# Warmup Iteration   2: 137,566 ns/op
+# Warmup Iteration   3: 144,726 ns/op
+# Warmup Iteration   4: 129,039 ns/op
+# Warmup Iteration   5: 129,963 ns/op
+Iteration   1: 126,815 ns/op
+Iteration   2: 125,231 ns/op
+Iteration   3: 128,994 ns/op
+Iteration   4: 129,634 ns/op
+Iteration   5: 130,058 ns/op
 
-# Run progress: 34,29% complete, ETA 00:03:55
+# Run progress: 8,00% complete, ETA 00:03:56
 # Fork: 3 of 5
-# Warmup Iteration   1: 179,486 ns/op
-# Warmup Iteration   2: 142,287 ns/op
-# Warmup Iteration   3: 136,475 ns/op
-# Warmup Iteration   4: 135,772 ns/op
-# Warmup Iteration   5: 146,192 ns/op
-Iteration   1: 133,367 ns/op
-Iteration   2: 136,049 ns/op
-Iteration   3: 151,096 ns/op
-Iteration   4: 136,482 ns/op
-Iteration   5: 137,249 ns/op
+# Warmup Iteration   1: 171,745 ns/op
+# Warmup Iteration   2: 134,651 ns/op
+# Warmup Iteration   3: 131,513 ns/op
+# Warmup Iteration   4: 136,824 ns/op
+# Warmup Iteration   5: 139,645 ns/op
+Iteration   1: 135,319 ns/op
+Iteration   2: 131,644 ns/op
+Iteration   3: 129,471 ns/op
+Iteration   4: 129,835 ns/op
+Iteration   5: 129,124 ns/op
 
-# Run progress: 37,14% complete, ETA 00:03:45
+# Run progress: 12,00% complete, ETA 00:03:46
 # Fork: 4 of 5
-# Warmup Iteration   1: 161,070 ns/op
-# Warmup Iteration   2: 129,635 ns/op
-# Warmup Iteration   3: 128,515 ns/op
-# Warmup Iteration   4: 126,547 ns/op
-# Warmup Iteration   5: 134,549 ns/op
-Iteration   1: 125,558 ns/op
-Iteration   2: 128,814 ns/op
-Iteration   3: 126,312 ns/op
-Iteration   4: 127,982 ns/op
-Iteration   5: 133,696 ns/op
+# Warmup Iteration   1: 180,764 ns/op
+# Warmup Iteration   2: 132,637 ns/op
+# Warmup Iteration   3: 132,547 ns/op
+# Warmup Iteration   4: 130,767 ns/op
+# Warmup Iteration   5: 140,544 ns/op
+Iteration   1: 139,235 ns/op
+Iteration   2: 132,840 ns/op
+Iteration   3: 130,282 ns/op
+Iteration   4: 132,460 ns/op
+Iteration   5: 130,662 ns/op
 
-# Run progress: 40,00% complete, ETA 00:03:34
+# Run progress: 16,00% complete, ETA 00:03:35
 # Fork: 5 of 5
-# Warmup Iteration   1: 163,467 ns/op
-# Warmup Iteration   2: 130,408 ns/op
-# Warmup Iteration   3: 132,719 ns/op
-# Warmup Iteration   4: 131,954 ns/op
-# Warmup Iteration   5: 138,792 ns/op
-Iteration   1: 130,943 ns/op
-Iteration   2: 134,818 ns/op
-Iteration   3: 135,789 ns/op
-Iteration   4: 133,982 ns/op
-Iteration   5: 139,245 ns/op
+# Warmup Iteration   1: 169,097 ns/op
+# Warmup Iteration   2: 135,429 ns/op
+# Warmup Iteration   3: 132,325 ns/op
+# Warmup Iteration   4: 132,232 ns/op
+# Warmup Iteration   5: 135,459 ns/op
+Iteration   1: 133,401 ns/op
+Iteration   2: 131,715 ns/op
+Iteration   3: 130,898 ns/op
+Iteration   4: 131,062 ns/op
+Iteration   5: 135,235 ns/op
 
 
 Result "io.github.danilopiazza.benchmark.bigdecimal.BigDecimalVsFloatingPoint.sumBigDecimalFromDouble":
-  134,055 ±(99.9%) 4,050 ns/op [Average]
-  (min, avg, max) = (125,558, 134,055, 151,096), stdev = 5,406
-  CI (99.9%): [130,005, 138,105] (assumes normal distribution)
+  129,866 ±(99.9%) 3,146 ns/op [Average]
+  (min, avg, max) = (120,938, 129,866, 139,235), stdev = 4,200
+  CI (99.9%): [126,720, 133,012] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -262,76 +94,76 @@ Result "io.github.danilopiazza.benchmark.bigdecimal.BigDecimalVsFloatingPoint.su
 # Benchmark mode: Average time, time/op
 # Benchmark: io.github.danilopiazza.benchmark.bigdecimal.BigDecimalVsFloatingPoint.sumBigDecimalFromLong
 
-# Run progress: 42,86% complete, ETA 00:03:24
+# Run progress: 20,00% complete, ETA 00:03:25
 # Fork: 1 of 5
-# Warmup Iteration   1: 6,298 ns/op
-# Warmup Iteration   2: 4,729 ns/op
-# Warmup Iteration   3: 4,675 ns/op
-# Warmup Iteration   4: 4,719 ns/op
-# Warmup Iteration   5: 4,686 ns/op
-Iteration   1: 4,659 ns/op
-Iteration   2: 4,691 ns/op
-Iteration   3: 4,656 ns/op
-Iteration   4: 4,747 ns/op
-Iteration   5: 4,667 ns/op
+# Warmup Iteration   1: 6,390 ns/op
+# Warmup Iteration   2: 4,725 ns/op
+# Warmup Iteration   3: 4,697 ns/op
+# Warmup Iteration   4: 4,647 ns/op
+# Warmup Iteration   5: 4,745 ns/op
+Iteration   1: 4,650 ns/op
+Iteration   2: 4,678 ns/op
+Iteration   3: 4,647 ns/op
+Iteration   4: 4,667 ns/op
+Iteration   5: 4,742 ns/op
 
-# Run progress: 45,71% complete, ETA 00:03:14
+# Run progress: 24,00% complete, ETA 00:03:15
 # Fork: 2 of 5
-# Warmup Iteration   1: 6,333 ns/op
-# Warmup Iteration   2: 4,690 ns/op
+# Warmup Iteration   1: 6,468 ns/op
+# Warmup Iteration   2: 4,697 ns/op
 # Warmup Iteration   3: 4,655 ns/op
-# Warmup Iteration   4: 4,722 ns/op
-# Warmup Iteration   5: 4,664 ns/op
-Iteration   1: 4,637 ns/op
+# Warmup Iteration   4: 4,697 ns/op
+# Warmup Iteration   5: 4,744 ns/op
+Iteration   1: 4,635 ns/op
 Iteration   2: 4,653 ns/op
-Iteration   3: 4,701 ns/op
-Iteration   4: 4,739 ns/op
-Iteration   5: 4,637 ns/op
+Iteration   3: 4,619 ns/op
+Iteration   4: 4,638 ns/op
+Iteration   5: 4,689 ns/op
 
-# Run progress: 48,57% complete, ETA 00:03:04
+# Run progress: 28,00% complete, ETA 00:03:04
 # Fork: 3 of 5
-# Warmup Iteration   1: 6,203 ns/op
-# Warmup Iteration   2: 4,695 ns/op
-# Warmup Iteration   3: 4,656 ns/op
-# Warmup Iteration   4: 4,733 ns/op
-# Warmup Iteration   5: 4,673 ns/op
-Iteration   1: 4,642 ns/op
-Iteration   2: 4,736 ns/op
-Iteration   3: 4,630 ns/op
-Iteration   4: 4,829 ns/op
-Iteration   5: 4,820 ns/op
+# Warmup Iteration   1: 6,367 ns/op
+# Warmup Iteration   2: 4,691 ns/op
+# Warmup Iteration   3: 4,657 ns/op
+# Warmup Iteration   4: 4,627 ns/op
+# Warmup Iteration   5: 4,700 ns/op
+Iteration   1: 4,608 ns/op
+Iteration   2: 4,629 ns/op
+Iteration   3: 4,605 ns/op
+Iteration   4: 4,638 ns/op
+Iteration   5: 4,696 ns/op
 
-# Run progress: 51,43% complete, ETA 00:02:53
+# Run progress: 32,00% complete, ETA 00:02:54
 # Fork: 4 of 5
-# Warmup Iteration   1: 6,388 ns/op
-# Warmup Iteration   2: 4,706 ns/op
-# Warmup Iteration   3: 4,673 ns/op
-# Warmup Iteration   4: 4,718 ns/op
-# Warmup Iteration   5: 4,654 ns/op
-Iteration   1: 4,653 ns/op
-Iteration   2: 4,668 ns/op
-Iteration   3: 4,645 ns/op
-Iteration   4: 4,730 ns/op
-Iteration   5: 4,641 ns/op
+# Warmup Iteration   1: 6,233 ns/op
+# Warmup Iteration   2: 4,695 ns/op
+# Warmup Iteration   3: 4,625 ns/op
+# Warmup Iteration   4: 4,667 ns/op
+# Warmup Iteration   5: 4,637 ns/op
+Iteration   1: 4,604 ns/op
+Iteration   2: 4,641 ns/op
+Iteration   3: 4,601 ns/op
+Iteration   4: 4,681 ns/op
+Iteration   5: 4,626 ns/op
 
-# Run progress: 54,29% complete, ETA 00:02:43
+# Run progress: 36,00% complete, ETA 00:02:44
 # Fork: 5 of 5
-# Warmup Iteration   1: 6,361 ns/op
-# Warmup Iteration   2: 4,700 ns/op
-# Warmup Iteration   3: 4,743 ns/op
-# Warmup Iteration   4: 4,648 ns/op
-# Warmup Iteration   5: 4,652 ns/op
-Iteration   1: 4,644 ns/op
-Iteration   2: 4,654 ns/op
-Iteration   3: 4,700 ns/op
-Iteration   4: 4,666 ns/op
-Iteration   5: 4,633 ns/op
+# Warmup Iteration   1: 6,257 ns/op
+# Warmup Iteration   2: 4,710 ns/op
+# Warmup Iteration   3: 4,630 ns/op
+# Warmup Iteration   4: 4,761 ns/op
+# Warmup Iteration   5: 4,621 ns/op
+Iteration   1: 4,608 ns/op
+Iteration   2: 4,617 ns/op
+Iteration   3: 4,602 ns/op
+Iteration   4: 4,686 ns/op
+Iteration   5: 4,703 ns/op
 
 
 Result "io.github.danilopiazza.benchmark.bigdecimal.BigDecimalVsFloatingPoint.sumBigDecimalFromLong":
-  4,683 ±(99.9%) 0,041 ns/op [Average]
-  (min, avg, max) = (4,630, 4,683, 4,829), stdev = 0,055
-  CI (99.9%): [4,642, 4,725] (assumes normal distribution)
+  4,646 ±(99.9%) 0,028 ns/op [Average]
+  (min, avg, max) = (4,601, 4,646, 4,742), stdev = 0,038
+  CI (99.9%): [4,618, 4,675] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -346,76 +178,76 @@ Result "io.github.danilopiazza.benchmark.bigdecimal.BigDecimalVsFloatingPoint.su
 # Benchmark mode: Average time, time/op
 # Benchmark: io.github.danilopiazza.benchmark.bigdecimal.BigDecimalVsFloatingPoint.sumBigDecimalFromString
 
-# Run progress: 57,14% complete, ETA 00:02:33
+# Run progress: 40,00% complete, ETA 00:02:33
 # Fork: 1 of 5
-# Warmup Iteration   1: 44,557 ns/op
-# Warmup Iteration   2: 34,292 ns/op
-# Warmup Iteration   3: 35,738 ns/op
-# Warmup Iteration   4: 34,413 ns/op
-# Warmup Iteration   5: 34,394 ns/op
-Iteration   1: 35,979 ns/op
-Iteration   2: 35,128 ns/op
-Iteration   3: 36,448 ns/op
-Iteration   4: 34,573 ns/op
-Iteration   5: 34,851 ns/op
+# Warmup Iteration   1: 45,541 ns/op
+# Warmup Iteration   2: 37,617 ns/op
+# Warmup Iteration   3: 35,404 ns/op
+# Warmup Iteration   4: 37,558 ns/op
+# Warmup Iteration   5: 35,497 ns/op
+Iteration   1: 35,316 ns/op
+Iteration   2: 35,816 ns/op
+Iteration   3: 34,922 ns/op
+Iteration   4: 36,887 ns/op
+Iteration   5: 35,518 ns/op
 
-# Run progress: 60,00% complete, ETA 00:02:23
+# Run progress: 44,00% complete, ETA 00:02:23
 # Fork: 2 of 5
-# Warmup Iteration   1: 44,602 ns/op
-# Warmup Iteration   2: 35,913 ns/op
-# Warmup Iteration   3: 37,300 ns/op
-# Warmup Iteration   4: 35,056 ns/op
-# Warmup Iteration   5: 35,471 ns/op
-Iteration   1: 34,923 ns/op
-Iteration   2: 34,919 ns/op
-Iteration   3: 36,675 ns/op
-Iteration   4: 35,139 ns/op
-Iteration   5: 35,951 ns/op
+# Warmup Iteration   1: 44,885 ns/op
+# Warmup Iteration   2: 36,103 ns/op
+# Warmup Iteration   3: 36,854 ns/op
+# Warmup Iteration   4: 37,558 ns/op
+# Warmup Iteration   5: 36,303 ns/op
+Iteration   1: 35,450 ns/op
+Iteration   2: 35,695 ns/op
+Iteration   3: 35,121 ns/op
+Iteration   4: 37,287 ns/op
+Iteration   5: 35,164 ns/op
 
-# Run progress: 62,86% complete, ETA 00:02:13
+# Run progress: 48,00% complete, ETA 00:02:13
 # Fork: 3 of 5
-# Warmup Iteration   1: 46,535 ns/op
-# Warmup Iteration   2: 38,711 ns/op
-# Warmup Iteration   3: 37,152 ns/op
-# Warmup Iteration   4: 35,172 ns/op
-# Warmup Iteration   5: 35,250 ns/op
-Iteration   1: 35,239 ns/op
-Iteration   2: 35,265 ns/op
-Iteration   3: 36,598 ns/op
-Iteration   4: 35,067 ns/op
-Iteration   5: 34,764 ns/op
+# Warmup Iteration   1: 45,073 ns/op
+# Warmup Iteration   2: 38,135 ns/op
+# Warmup Iteration   3: 38,032 ns/op
+# Warmup Iteration   4: 36,098 ns/op
+# Warmup Iteration   5: 35,206 ns/op
+Iteration   1: 35,212 ns/op
+Iteration   2: 35,099 ns/op
+Iteration   3: 36,166 ns/op
+Iteration   4: 36,080 ns/op
+Iteration   5: 34,878 ns/op
 
-# Run progress: 65,71% complete, ETA 00:02:02
+# Run progress: 52,00% complete, ETA 00:02:03
 # Fork: 4 of 5
-# Warmup Iteration   1: 44,048 ns/op
-# Warmup Iteration   2: 35,857 ns/op
-# Warmup Iteration   3: 35,896 ns/op
-# Warmup Iteration   4: 34,989 ns/op
-# Warmup Iteration   5: 34,966 ns/op
-Iteration   1: 36,018 ns/op
-Iteration   2: 35,742 ns/op
-Iteration   3: 35,135 ns/op
-Iteration   4: 35,068 ns/op
-Iteration   5: 34,251 ns/op
+# Warmup Iteration   1: 45,358 ns/op
+# Warmup Iteration   2: 37,897 ns/op
+# Warmup Iteration   3: 36,705 ns/op
+# Warmup Iteration   4: 35,476 ns/op
+# Warmup Iteration   5: 35,436 ns/op
+Iteration   1: 35,209 ns/op
+Iteration   2: 35,233 ns/op
+Iteration   3: 37,127 ns/op
+Iteration   4: 35,748 ns/op
+Iteration   5: 35,973 ns/op
 
-# Run progress: 68,57% complete, ETA 00:01:52
+# Run progress: 56,00% complete, ETA 00:01:52
 # Fork: 5 of 5
-# Warmup Iteration   1: 45,316 ns/op
-# Warmup Iteration   2: 38,919 ns/op
-# Warmup Iteration   3: 35,425 ns/op
-# Warmup Iteration   4: 34,729 ns/op
-# Warmup Iteration   5: 35,214 ns/op
-Iteration   1: 34,691 ns/op
-Iteration   2: 36,806 ns/op
-Iteration   3: 35,109 ns/op
-Iteration   4: 35,188 ns/op
-Iteration   5: 34,722 ns/op
+# Warmup Iteration   1: 44,834 ns/op
+# Warmup Iteration   2: 37,884 ns/op
+# Warmup Iteration   3: 37,517 ns/op
+# Warmup Iteration   4: 35,490 ns/op
+# Warmup Iteration   5: 35,015 ns/op
+Iteration   1: 35,477 ns/op
+Iteration   2: 36,035 ns/op
+Iteration   3: 37,046 ns/op
+Iteration   4: 39,181 ns/op
+Iteration   5: 37,834 ns/op
 
 
 Result "io.github.danilopiazza.benchmark.bigdecimal.BigDecimalVsFloatingPoint.sumBigDecimalFromString":
-  35,370 ±(99.9%) 0,529 ns/op [Average]
-  (min, avg, max) = (34,251, 35,370, 36,806), stdev = 0,707
-  CI (99.9%): [34,840, 35,899] (assumes normal distribution)
+  35,979 ±(99.9%) 0,784 ns/op [Average]
+  (min, avg, max) = (34,878, 35,979, 39,181), stdev = 1,047
+  CI (99.9%): [35,194, 36,763] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -430,76 +262,76 @@ Result "io.github.danilopiazza.benchmark.bigdecimal.BigDecimalVsFloatingPoint.su
 # Benchmark mode: Average time, time/op
 # Benchmark: io.github.danilopiazza.benchmark.bigdecimal.BigDecimalVsFloatingPoint.sumDouble
 
-# Run progress: 71,43% complete, ETA 00:01:42
+# Run progress: 60,00% complete, ETA 00:01:42
 # Fork: 1 of 5
-# Warmup Iteration   1: 0,409 ns/op
-# Warmup Iteration   2: 0,411 ns/op
-# Warmup Iteration   3: 0,394 ns/op
-# Warmup Iteration   4: 0,389 ns/op
-# Warmup Iteration   5: 0,392 ns/op
-Iteration   1: 0,393 ns/op
-Iteration   2: 0,417 ns/op
-Iteration   3: 0,400 ns/op
-Iteration   4: 0,400 ns/op
-Iteration   5: 0,400 ns/op
+# Warmup Iteration   1: 0,714 ns/op
+# Warmup Iteration   2: 0,715 ns/op
+# Warmup Iteration   3: 0,753 ns/op
+# Warmup Iteration   4: 0,704 ns/op
+# Warmup Iteration   5: 0,694 ns/op
+Iteration   1: 0,688 ns/op
+Iteration   2: 0,737 ns/op
+Iteration   3: 0,742 ns/op
+Iteration   4: 0,742 ns/op
+Iteration   5: 0,715 ns/op
 
-# Run progress: 74,29% complete, ETA 00:01:32
+# Run progress: 64,00% complete, ETA 00:01:32
 # Fork: 2 of 5
-# Warmup Iteration   1: 0,414 ns/op
-# Warmup Iteration   2: 0,448 ns/op
-# Warmup Iteration   3: 0,427 ns/op
-# Warmup Iteration   4: 0,425 ns/op
-# Warmup Iteration   5: 0,403 ns/op
-Iteration   1: 0,393 ns/op
-Iteration   2: 0,401 ns/op
-Iteration   3: 0,393 ns/op
-Iteration   4: 0,391 ns/op
-Iteration   5: 0,394 ns/op
+# Warmup Iteration   1: 0,679 ns/op
+# Warmup Iteration   2: 0,671 ns/op
+# Warmup Iteration   3: 0,687 ns/op
+# Warmup Iteration   4: 0,661 ns/op
+# Warmup Iteration   5: 0,663 ns/op
+Iteration   1: 0,659 ns/op
+Iteration   2: 0,668 ns/op
+Iteration   3: 0,689 ns/op
+Iteration   4: 0,663 ns/op
+Iteration   5: 0,672 ns/op
 
-# Run progress: 77,14% complete, ETA 00:01:21
+# Run progress: 68,00% complete, ETA 00:01:22
 # Fork: 3 of 5
-# Warmup Iteration   1: 0,386 ns/op
-# Warmup Iteration   2: 0,397 ns/op
-# Warmup Iteration   3: 0,392 ns/op
-# Warmup Iteration   4: 0,396 ns/op
-# Warmup Iteration   5: 0,389 ns/op
-Iteration   1: 0,400 ns/op
-Iteration   2: 0,418 ns/op
-Iteration   3: 0,396 ns/op
-Iteration   4: 0,394 ns/op
-Iteration   5: 0,397 ns/op
+# Warmup Iteration   1: 0,681 ns/op
+# Warmup Iteration   2: 0,693 ns/op
+# Warmup Iteration   3: 0,678 ns/op
+# Warmup Iteration   4: 0,666 ns/op
+# Warmup Iteration   5: 0,666 ns/op
+Iteration   1: 0,668 ns/op
+Iteration   2: 0,693 ns/op
+Iteration   3: 0,687 ns/op
+Iteration   4: 0,668 ns/op
+Iteration   5: 0,667 ns/op
 
-# Run progress: 80,00% complete, ETA 00:01:11
+# Run progress: 72,00% complete, ETA 00:01:11
 # Fork: 4 of 5
-# Warmup Iteration   1: 0,449 ns/op
-# Warmup Iteration   2: 0,427 ns/op
-# Warmup Iteration   3: 0,419 ns/op
-# Warmup Iteration   4: 0,427 ns/op
-# Warmup Iteration   5: 0,420 ns/op
-Iteration   1: 0,447 ns/op
-Iteration   2: 0,410 ns/op
-Iteration   3: 0,381 ns/op
-Iteration   4: 0,387 ns/op
-Iteration   5: 0,382 ns/op
+# Warmup Iteration   1: 0,681 ns/op
+# Warmup Iteration   2: 0,727 ns/op
+# Warmup Iteration   3: 0,746 ns/op
+# Warmup Iteration   4: 0,735 ns/op
+# Warmup Iteration   5: 0,737 ns/op
+Iteration   1: 0,729 ns/op
+Iteration   2: 0,705 ns/op
+Iteration   3: 0,743 ns/op
+Iteration   4: 0,725 ns/op
+Iteration   5: 0,692 ns/op
 
-# Run progress: 82,86% complete, ETA 00:01:01
+# Run progress: 76,00% complete, ETA 00:01:01
 # Fork: 5 of 5
-# Warmup Iteration   1: 0,405 ns/op
-# Warmup Iteration   2: 0,391 ns/op
-# Warmup Iteration   3: 0,389 ns/op
-# Warmup Iteration   4: 0,393 ns/op
-# Warmup Iteration   5: 0,399 ns/op
-Iteration   1: 0,400 ns/op
-Iteration   2: 0,401 ns/op
-Iteration   3: 0,402 ns/op
-Iteration   4: 0,399 ns/op
-Iteration   5: 0,401 ns/op
+# Warmup Iteration   1: 0,684 ns/op
+# Warmup Iteration   2: 0,706 ns/op
+# Warmup Iteration   3: 0,723 ns/op
+# Warmup Iteration   4: 0,706 ns/op
+# Warmup Iteration   5: 0,720 ns/op
+Iteration   1: 0,719 ns/op
+Iteration   2: 0,759 ns/op
+Iteration   3: 0,712 ns/op
+Iteration   4: 0,719 ns/op
+Iteration   5: 0,731 ns/op
 
 
 Result "io.github.danilopiazza.benchmark.bigdecimal.BigDecimalVsFloatingPoint.sumDouble":
-  0,400 ±(99.9%) 0,010 ns/op [Average]
-  (min, avg, max) = (0,381, 0,400, 0,447), stdev = 0,013
-  CI (99.9%): [0,390, 0,410] (assumes normal distribution)
+  0,704 ±(99.9%) 0,023 ns/op [Average]
+  (min, avg, max) = (0,659, 0,704, 0,759), stdev = 0,030
+  CI (99.9%): [0,681, 0,726] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -514,79 +346,79 @@ Result "io.github.danilopiazza.benchmark.bigdecimal.BigDecimalVsFloatingPoint.su
 # Benchmark mode: Average time, time/op
 # Benchmark: io.github.danilopiazza.benchmark.bigdecimal.BigDecimalVsFloatingPoint.sumFloat
 
-# Run progress: 85,71% complete, ETA 00:00:51
+# Run progress: 80,00% complete, ETA 00:00:51
 # Fork: 1 of 5
-# Warmup Iteration   1: 0,451 ns/op
-# Warmup Iteration   2: 0,417 ns/op
-# Warmup Iteration   3: 0,383 ns/op
-# Warmup Iteration   4: 0,385 ns/op
-# Warmup Iteration   5: 0,381 ns/op
-Iteration   1: 0,393 ns/op
-Iteration   2: 0,382 ns/op
-Iteration   3: 0,385 ns/op
-Iteration   4: 0,389 ns/op
-Iteration   5: 0,396 ns/op
+# Warmup Iteration   1: 0,675 ns/op
+# Warmup Iteration   2: 0,709 ns/op
+# Warmup Iteration   3: 0,665 ns/op
+# Warmup Iteration   4: 0,663 ns/op
+# Warmup Iteration   5: 0,656 ns/op
+Iteration   1: 0,665 ns/op
+Iteration   2: 0,693 ns/op
+Iteration   3: 0,666 ns/op
+Iteration   4: 0,724 ns/op
+Iteration   5: 1,123 ns/op
 
-# Run progress: 88,57% complete, ETA 00:00:40
+# Run progress: 84,00% complete, ETA 00:00:40
 # Fork: 2 of 5
-# Warmup Iteration   1: 0,426 ns/op
-# Warmup Iteration   2: 0,398 ns/op
-# Warmup Iteration   3: 0,394 ns/op
-# Warmup Iteration   4: 0,395 ns/op
-# Warmup Iteration   5: 0,393 ns/op
-Iteration   1: 0,421 ns/op
-Iteration   2: 0,394 ns/op
-Iteration   3: 0,398 ns/op
-Iteration   4: 0,402 ns/op
-Iteration   5: 0,427 ns/op
+# Warmup Iteration   1: 0,976 ns/op
+# Warmup Iteration   2: 0,866 ns/op
+# Warmup Iteration   3: 0,723 ns/op
+# Warmup Iteration   4: 0,696 ns/op
+# Warmup Iteration   5: 0,682 ns/op
+Iteration   1: 0,705 ns/op
+Iteration   2: 0,712 ns/op
+Iteration   3: 0,676 ns/op
+Iteration   4: 0,685 ns/op
+Iteration   5: 0,680 ns/op
 
-# Run progress: 91,43% complete, ETA 00:00:30
+# Run progress: 88,00% complete, ETA 00:00:30
 # Fork: 3 of 5
-# Warmup Iteration   1: 0,416 ns/op
-# Warmup Iteration   2: 0,384 ns/op
-# Warmup Iteration   3: 0,397 ns/op
-# Warmup Iteration   4: 0,403 ns/op
-# Warmup Iteration   5: 0,397 ns/op
-Iteration   1: 0,397 ns/op
-Iteration   2: 0,394 ns/op
-Iteration   3: 0,395 ns/op
-Iteration   4: 0,390 ns/op
-Iteration   5: 0,401 ns/op
+# Warmup Iteration   1: 0,716 ns/op
+# Warmup Iteration   2: 0,681 ns/op
+# Warmup Iteration   3: 0,690 ns/op
+# Warmup Iteration   4: 0,678 ns/op
+# Warmup Iteration   5: 0,673 ns/op
+Iteration   1: 0,726 ns/op
+Iteration   2: 0,685 ns/op
+Iteration   3: 0,674 ns/op
+Iteration   4: 0,668 ns/op
+Iteration   5: 0,677 ns/op
 
-# Run progress: 94,29% complete, ETA 00:00:20
+# Run progress: 92,00% complete, ETA 00:00:20
 # Fork: 4 of 5
-# Warmup Iteration   1: 0,413 ns/op
-# Warmup Iteration   2: 0,402 ns/op
-# Warmup Iteration   3: 0,399 ns/op
-# Warmup Iteration   4: 0,414 ns/op
-# Warmup Iteration   5: 0,444 ns/op
-Iteration   1: 0,427 ns/op
-Iteration   2: 0,424 ns/op
-Iteration   3: 0,433 ns/op
-Iteration   4: 0,421 ns/op
-Iteration   5: 0,451 ns/op
+# Warmup Iteration   1: 0,714 ns/op
+# Warmup Iteration   2: 0,683 ns/op
+# Warmup Iteration   3: 0,733 ns/op
+# Warmup Iteration   4: 0,768 ns/op
+# Warmup Iteration   5: 0,804 ns/op
+Iteration   1: 0,800 ns/op
+Iteration   2: 0,808 ns/op
+Iteration   3: 0,767 ns/op
+Iteration   4: 0,679 ns/op
+Iteration   5: 0,678 ns/op
 
-# Run progress: 97,14% complete, ETA 00:00:10
+# Run progress: 96,00% complete, ETA 00:00:10
 # Fork: 5 of 5
-# Warmup Iteration   1: 0,427 ns/op
-# Warmup Iteration   2: 0,427 ns/op
-# Warmup Iteration   3: 0,423 ns/op
-# Warmup Iteration   4: 0,424 ns/op
-# Warmup Iteration   5: 0,409 ns/op
-Iteration   1: 0,394 ns/op
-Iteration   2: 0,380 ns/op
-Iteration   3: 0,382 ns/op
-Iteration   4: 0,380 ns/op
-Iteration   5: 0,391 ns/op
+# Warmup Iteration   1: 0,748 ns/op
+# Warmup Iteration   2: 0,681 ns/op
+# Warmup Iteration   3: 0,668 ns/op
+# Warmup Iteration   4: 0,690 ns/op
+# Warmup Iteration   5: 0,682 ns/op
+Iteration   1: 0,735 ns/op
+Iteration   2: 0,678 ns/op
+Iteration   3: 0,766 ns/op
+Iteration   4: 0,689 ns/op
+Iteration   5: 0,745 ns/op
 
 
 Result "io.github.danilopiazza.benchmark.bigdecimal.BigDecimalVsFloatingPoint.sumFloat":
-  0,402 ±(99.9%) 0,014 ns/op [Average]
-  (min, avg, max) = (0,380, 0,402, 0,451), stdev = 0,019
-  CI (99.9%): [0,388, 0,416] (assumes normal distribution)
+  0,724 ±(99.9%) 0,070 ns/op [Average]
+  (min, avg, max) = (0,665, 0,724, 1,123), stdev = 0,093
+  CI (99.9%): [0,655, 0,794] (assumes normal distribution)
 
 
-# Run complete. Total time: 00:05:58
+# Run complete. Total time: 00:04:16
 
 REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
 why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
@@ -601,10 +433,8 @@ different JVMs are already problematic, the performance difference caused by dif
 modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
 
 Benchmark                                          Mode  Cnt    Score   Error  Units
-BigDecimalVsFloatingPoint.constantDouble           avgt   25    0,400 ± 0,013  ns/op
-BigDecimalVsFloatingPoint.constantFloat            avgt   25    0,414 ± 0,032  ns/op
-BigDecimalVsFloatingPoint.sumBigDecimalFromDouble  avgt   25  134,055 ± 4,050  ns/op
-BigDecimalVsFloatingPoint.sumBigDecimalFromLong    avgt   25    4,683 ± 0,041  ns/op
-BigDecimalVsFloatingPoint.sumBigDecimalFromString  avgt   25   35,370 ± 0,529  ns/op
-BigDecimalVsFloatingPoint.sumDouble                avgt   25    0,400 ± 0,010  ns/op
-BigDecimalVsFloatingPoint.sumFloat                 avgt   25    0,402 ± 0,014  ns/op
+BigDecimalVsFloatingPoint.sumBigDecimalFromDouble  avgt   25  129,866 ± 3,146  ns/op
+BigDecimalVsFloatingPoint.sumBigDecimalFromLong    avgt   25    4,646 ± 0,028  ns/op
+BigDecimalVsFloatingPoint.sumBigDecimalFromString  avgt   25   35,979 ± 0,784  ns/op
+BigDecimalVsFloatingPoint.sumDouble                avgt   25    0,704 ± 0,023  ns/op
+BigDecimalVsFloatingPoint.sumFloat                 avgt   25    0,724 ± 0,070  ns/op

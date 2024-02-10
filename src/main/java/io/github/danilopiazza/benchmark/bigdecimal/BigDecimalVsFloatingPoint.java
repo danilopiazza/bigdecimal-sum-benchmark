@@ -69,14 +69,4 @@ public class BigDecimalVsFloatingPoint {
         float f3 = f1 + f2;
         blackhole.consume(f3);
     }
-
-    @Benchmark
-    public void constantDouble(Blackhole blackhole) {
-        blackhole.consume(0.3);
-    }
-
-    @Benchmark
-    public void constantFloat(Blackhole blackhole) {
-        blackhole.consume(0.3f);
-    }
 }
