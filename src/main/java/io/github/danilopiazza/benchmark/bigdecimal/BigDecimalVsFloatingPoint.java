@@ -17,7 +17,7 @@ import org.openjdk.jmh.infra.Blackhole;
 @Measurement(time = 1, timeUnit = TimeUnit.SECONDS)
 public class BigDecimalVsFloatingPoint {
     @Benchmark
-    public void sumBigDecimals(Blackhole blackhole) {
+    public void sumBigDecimalFromDouble(Blackhole blackhole) {
         BigDecimal d1 = BigDecimal.valueOf(0.1);
         BigDecimal d2 = BigDecimal.valueOf(0.2);
         BigDecimal d3 = d1.add(d2);
@@ -25,7 +25,23 @@ public class BigDecimalVsFloatingPoint {
     }
 
     @Benchmark
-    public void sumDoubles(Blackhole blackhole) {
+    public void sumBigDecimalFromString(Blackhole blackhole) {
+        BigDecimal d1 = new BigDecimal("0.1");
+        BigDecimal d2 = new BigDecimal("0.2");
+        BigDecimal d3 = d1.add(d2);
+        blackhole.consume(d3);
+    }
+
+    @Benchmark
+    public void sumBigDecimalFromLong(Blackhole blackhole) {
+        BigDecimal d1 = BigDecimal.valueOf(1, 1);
+        BigDecimal d2 = BigDecimal.valueOf(2, 1);
+        BigDecimal d3 = d1.add(d2);
+        blackhole.consume(d3);
+    }
+
+    @Benchmark
+    public void sumDouble(Blackhole blackhole) {
         double d1 = 0.1;
         double d2 = 0.2;
         double d3 = d1 + d2;
@@ -33,10 +49,20 @@ public class BigDecimalVsFloatingPoint {
     }
 
     @Benchmark
-    public void sumFloats(Blackhole blackhole) {
-        float d1 = 0.1f;
-        float d2 = 0.2f;
-        float d3 = d1 + d2;
-        blackhole.consume(d3);
+    public void sumFloat(Blackhole blackhole) {
+        float f1 = 0.1f;
+        float f2 = 0.2f;
+        float f3 = f1 + f2;
+        blackhole.consume(f3);
+    }
+
+    @Benchmark
+    public void constantDouble(Blackhole blackhole) {
+        blackhole.consume(0.3);
+    }
+
+    @Benchmark
+    public void constantFloat(Blackhole blackhole) {
+        blackhole.consume(0.3f);
     }
 }
